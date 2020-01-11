@@ -1,0 +1,16 @@
+C:\Users\NENA-KREKA\source\repos\PS - Projekat\Domen\obj\Debug\Domen.csprojAssemblyReference.cache
+C:\Users\NENA-KREKA\source\repos\PS - Projekat\Domen\obj\Debug\Domen.csproj.CoreCompileInputs.cache
+C:\Users\NENA-KREKA\source\repos\PS - Projekat\Domen\bin\Debug\Domen.dll
+C:\Users\NENA-KREKA\source\repos\PS - Projekat\Domen\bin\Debug\Domen.pdb
+C:\Users\NENA-KREKA\source\repos\PS - Projekat\Domen\obj\Debug\Domen.dll
+C:\Users\NENA-KREKA\source\repos\PS - Projekat\Domen\obj\Debug\Domen.pdb
+C:\Users\Kaca\Desktop\softveri\zaSeminarski\PS - Projekat\Domen\bin\Debug\Domen.dll
+C:\Users\Kaca\Desktop\softveri\zaSeminarski\PS - Projekat\Domen\bin\Debug\Domen.pdb
+C:\Users\Kaca\Desktop\softveri\zaSeminarski\PS - Projekat\Domen\obj\Debug\Domen.csprojAssemblyReference.cache
+C:\Users\Kaca\Desktop\softveri\zaSeminarski\PS - Projekat\Domen\obj\Debug\Domen.dll
+C:\Users\Kaca\Desktop\softveri\zaSeminarski\PS - Projekat\Domen\obj\Debug\Domen.pdb
+C:\Users\Kaca\Desktop\cetvrta\softveri\zaSeminarski\PS - Projekat\Domen\bin\Debug\Domen.dll
+C:\Users\Kaca\Desktop\cetvrta\softveri\zaSeminarski\PS - Projekat\Domen\bin\Debug\Domen.pdb
+C:\Users\Kaca\Desktop\cetvrta\softveri\zaSeminarski\PS - Projekat\Domen\obj\Debug\Domen.dll
+C:\Users\Kaca\Desktop\cetvrta\softveri\zaSeminarski\PS - Projekat\Domen\obj\Debug\Domen.pdb
+C:\Users\Kaca\Desktop\cetvrta\softveri\zaSeminarski\PS - Projekat\Domen\obj\Debug\Domen.csprojAssemblyReference.cache
