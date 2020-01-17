@@ -20,7 +20,7 @@ namespace Server
             try
             {
                 soket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                soket.Bind(new IPEndPoint(IPAddress.Any, 10000));
+                soket.Bind(new IPEndPoint(IPAddress.Parse("127.0.0.1"), 10000));
 
                 Thread nit = new Thread(osluskuj);
                 nit.IsBackground = true;

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net;
 using System.Net.Sockets;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
@@ -12,7 +13,7 @@ namespace Klijent
 {
     internal class Komunikacija
     {
-        private TcpClient klijent;
+        private Socket klijent;
         private BinaryFormatter formater;
         private NetworkStream tok;
 
@@ -36,8 +37,10 @@ namespace Klijent
         {
             try
             {
-                klijent = new TcpClient("127.0.0.1", 10000);
-                tok = klijent.GetStream();
+               klijent = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                klijent.Connect(new IPEndPoint(IPAddress.Parse("127.0.0.1"), 10000));
+
+                tok = new NetworkStream(klijent);
                 return true;
             }
             catch (Exception)

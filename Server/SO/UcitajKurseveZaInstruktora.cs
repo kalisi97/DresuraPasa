@@ -10,7 +10,7 @@ namespace Server.SO
 {
     internal class UcitajKurseveZaInstruktora : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
             Instruktor p = (Instruktor)odo;
             Kurs k = new Kurs

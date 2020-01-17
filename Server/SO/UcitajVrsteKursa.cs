@@ -10,9 +10,9 @@ namespace Server.SO
 {
     internal class UcitajVrsteKursa : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
-            return Broker.Instanca.vratiSve(odo).OfType<VrstaKursa>().ToList<VrstaKursa>();
+            return Broker.Instanca.vratiSve((OpstiDomenskiObjekat)odo).OfType<VrstaKursa>().ToList<VrstaKursa>();
         }
     }
 }

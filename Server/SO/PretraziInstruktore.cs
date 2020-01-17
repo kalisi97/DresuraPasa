@@ -10,9 +10,9 @@ namespace Server.SO
 {
     internal class PretraziInstruktore : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
-            return Broker.Instanca.vratiSveZaOpstiUslov(odo).OfType<Instruktor>().ToList<Instruktor>();
+            return Broker.Instanca.vratiSveZaOpstiUslov((OpstiDomenskiObjekat)odo).OfType<Instruktor>().ToList<Instruktor>();
         }
     }
 }

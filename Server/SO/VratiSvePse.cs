@@ -7,9 +7,9 @@ namespace Server
 {
     internal class VratiSvePse : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
-            return Broker.Instanca.vratiSve(odo).OfType<Pas>().ToList<Pas>();
+            return Broker.Instanca.vratiSve((OpstiDomenskiObjekat)odo).OfType<Pas>().ToList<Pas>();
         }
     }
 }

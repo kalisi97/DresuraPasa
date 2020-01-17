@@ -10,9 +10,9 @@ namespace Server.SO
 {
     internal class PrijaviSe : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
-            return Broker.Instanca.vratiJedanZaID(odo) as Instruktor;
+            return Broker.Instanca.vratiJedanZaID((OpstiDomenskiObjekat)odo) as Instruktor;
         }
     }
 }

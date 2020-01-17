@@ -10,9 +10,9 @@ namespace Server.SO
 {
     internal class ZapamtiPsa : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
-            Broker.Instanca.updateJedan(odo);
+            Broker.Instanca.updateJedan((OpstiDomenskiObjekat)odo);
             return true;
         }
     }

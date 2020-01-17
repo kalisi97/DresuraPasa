@@ -144,7 +144,7 @@
             this.Controls.Add(this.btnSacuvajOcene);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmOcenjivanje";
-            this.Text = "Unos članstva";
+            this.Text = "Unos ocena";
             this.Load += new System.EventHandler(this.FrmOcenjivanje_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

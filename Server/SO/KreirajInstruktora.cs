@@ -10,10 +10,10 @@ namespace Server.SO
 {
     internal class KreirajInstruktora : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
             Instruktor p = new Instruktor();
-            p.InstruktorID = Broker.Instanca.vratiSifru(odo);
+            p.InstruktorID = Broker.Instanca.vratiSifru((OpstiDomenskiObjekat)odo);
             Broker.Instanca.insert(p);
             return p;
         }

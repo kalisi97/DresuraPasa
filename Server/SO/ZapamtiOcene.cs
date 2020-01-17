@@ -6,13 +6,14 @@ using System.Collections.Generic;
 
 namespace Server
 {
-    internal class ZapamtiOcene:OpstaSOUnosOcena
+    internal class ZapamtiOcene:OpstaSO
     {
-        internal override object izvrsi(List<OpstiDomenskiObjekat> odo)
+      
+
+        internal override object izvrsi(object odo)
         {
-            Broker.Instanca.insertVise(odo);
+            Broker.Instanca.insertVise((List<OpstiDomenskiObjekat>)odo);
             return true;
         }
-
     }
 }

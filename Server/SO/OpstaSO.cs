@@ -10,7 +10,7 @@ namespace Server.SO
 {
     internal abstract class OpstaSO
     {
-        internal Object izvrsiSO(OpstiDomenskiObjekat odo)
+        internal Object izvrsiSO(object odo)
         {
             object rez = null;
 
@@ -18,8 +18,14 @@ namespace Server.SO
             {
                 Broker.Instanca.otvoriKonekciju();
                 Broker.Instanca.zapocniTransakciju();
-
-                rez = izvrsi(odo);
+                if (odo is OpstiDomenskiObjekat)
+                {
+                    rez = izvrsi((OpstiDomenskiObjekat)odo);
+                }
+                else
+                {
+                    rez = izvrsi((List<OpstiDomenskiObjekat>)odo);
+                }
                 Broker.Instanca.potvrdiTransakciju();
             }
             catch (Exception)
@@ -37,6 +43,6 @@ namespace Server.SO
       
         
 
-        internal abstract object izvrsi(OpstiDomenskiObjekat odo);
+        internal abstract object izvrsi(object odo);
     }
 }

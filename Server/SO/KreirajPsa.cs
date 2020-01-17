@@ -10,10 +10,10 @@ namespace Server.SO
 {
     internal class KreirajPsa : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
             Pas u = new Pas();
-            u.PasID = Broker.Instanca.vratiSifru(odo);
+            u.PasID = Broker.Instanca.vratiSifru((OpstiDomenskiObjekat)odo);
             Broker.Instanca.insert(u);
             return u;
         }

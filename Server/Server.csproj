@@ -62,7 +62,6 @@
     <Compile Include="SO\ObrisiInstruktora.cs" />
     <Compile Include="SO\ObrisiPsa.cs" />
     <Compile Include="SO\OpstaSO.cs" />
-    <Compile Include="SO\OpstaSOUnosOcena.cs" />
     <Compile Include="SO\PretraziKurseve.cs" />
     <Compile Include="SO\PretraziInstruktore.cs" />
     <Compile Include="SO\PretraziPse.cs" />
@@ -72,7 +71,6 @@
     <Compile Include="SO\UcitajKurseveZaInstruktora.cs" />
     <Compile Include="SO\UcitajVrsteKursa.cs" />
     <Compile Include="SO\VratiSveKurseve.cs" />
-    <Compile Include="SO\ZapamtiClanstvo.cs" />
     <Compile Include="SO\ZapamtiKurs.cs" />
     <Compile Include="SO\ZapamtiInstruktora.cs" />
     <Compile Include="SO\ZapamtiPsa.cs" />

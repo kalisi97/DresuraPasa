@@ -172,7 +172,7 @@ namespace Klijent
 
             if (!Komunikacija.Instanca.zapamtiInstruktora(inst))
             {
-                MessageBox.Show("Sistem ne može da zapamti poodatke o instruktoru!");
+                MessageBox.Show("Sistem ne može da zapamti podatke o instruktoru!");
                 frm.Close();
                 return;
             }
@@ -696,7 +696,7 @@ namespace Klijent
                   
 
 
-                    MessageBox.Show("Sistem je kreirao ocenu!");
+                    MessageBox.Show("Uspesno je uneta ocena!");
                     btnDodajOcenu.Enabled = true;
                     btnSacuvajOcene.Enabled = true;
                     groupBox1.Enabled = true;
@@ -704,7 +704,7 @@ namespace Klijent
                     dgvOcene.DataSource = ocene;
                 }catch(Exception)
                 {
-                MessageBox.Show("Sistem ne može da kreira ocenu!");
+                MessageBox.Show("Neuspesno uneta ocena!");
                 txtDatum.Clear();
                 txtOcena.Clear();
                 cmbPsi.SelectedItem = null;

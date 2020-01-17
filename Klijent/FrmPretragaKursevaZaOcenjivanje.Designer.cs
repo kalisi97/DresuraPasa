@@ -92,7 +92,7 @@
             this.Controls.Add(this.txtKriterijum);
             this.Controls.Add(this.label1);
             this.Name = "FrmPretragaKursevaZaOcenjivanje";
-            this.Text = "Pretraga pasa";
+            this.Text = "Pretraga kurseva za ocenjivanje";
             this.Load += new System.EventHandler(this.FrmPretragaPasaZaOcenjivanje_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKursevi)).EndInit();
             this.ResumeLayout(false);

@@ -10,7 +10,7 @@ namespace Server.SO
 {
     internal class ObrisiInstruktora : OpstaSO
     {
-        internal override object izvrsi(OpstiDomenskiObjekat odo)
+        internal override object izvrsi(object odo)
         {
             try
             {
